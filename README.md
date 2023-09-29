@@ -7,6 +7,8 @@
 
 
 ### Tools Used:
+🌟 Practicing using components & grid layout using Bootstrap 5
+
 
 
 ### Project Link: https://ann-c-tseng.github.io/...
