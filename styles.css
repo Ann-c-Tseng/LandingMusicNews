@@ -1,7 +1,13 @@
-#pic {
-    background-color: pink;
+#main-photo {
+    background-color: rgb(244, 134, 151);
 }
 
-#pic2 {
-    background-color: blue;
+#side-articles {
+    background-color: rgb(19, 18, 18);
+    color: rgb(237, 237, 237);
+}
+
+#readmore-btn {
+    background-color: coral;
+    color: rgb(237, 237, 237);
 }
