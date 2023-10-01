@@ -10,4 +10,11 @@
 #readmore-btn {
     background-color: coral;
     color: rgb(237, 237, 237);
+    border-radius: 0;
+}
+
+.subphoto {
+    background-color: turquoise;
+    height: 90%;
+    width: 100px;
 }
