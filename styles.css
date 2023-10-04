@@ -1,4 +1,4 @@
-#main-photo {
+#main-banner {
     background-color: rgb(244, 134, 151);
 }
 
@@ -15,6 +15,6 @@
 
 .subphoto {
     background-color: turquoise;
-    height: 100%;
+    height: 150px;
     width: 100px;
 }
