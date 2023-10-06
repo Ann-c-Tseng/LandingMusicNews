@@ -11,5 +11,5 @@ I then went on to adding text content and images. I finised with finetuning spac
 🌟 Practicing using components & grid/flex layouts using Bootstrap 5
 
 
-### Project Link: https://github.com/ann-c-tseng/...
+### Project Link: https://ann-c-tseng.github.io/LandingMusicNews/
 
