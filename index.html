@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg mb-3">
             <div class="container-fluid">
                 <span class="navbar-brand mb-0 h1">Musicians of 2023</span>
 
@@ -28,6 +28,9 @@
                       <li class="nav-item">
                         <a class="nav-link" href="">New Releases</a>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="">Genres</a>
+                      </li>
                     </ul>
                 </div>
             </div>
@@ -35,47 +38,47 @@
 
         <div class="container text-left">
             <div class="row g-0">
-                <div class="col-lg-8 col-md-12 me-lg-4" id="main-section">
-                    <div id="main-banner"> 
+                <div class="col-lg-8 col-md-12 me-lg-4 g-0" id="main-section">
+                    <div id="main-banner">
                         <img id="banner-photo" class="img-fluid" src="./assets/images/marcela-laskoski-unsplash.jpg" alt="A closeup of a DJ working a pink and purple neon turntable"/>
                     </div>
 
-                    <div class="row g-0">
-                        <div class="col-lg-4 col-md-12">
-                            <h1>Top Hits from 2023?</h1>
+                    <div class="row g-0 mt-5 mb-0">
+                        <div class="col-lg-4 col-md-12" id="mainHeader">
+                            <h1>Top Hits of 2023?</h1>
                         </div>
-                        <div class="col">
+                        <div class="col" id="mainParagraph">
                             <p>
                                 As we revisit the year 2023, music enthusiasts around the world are eagerly anticipating the next wave of top musicians. It is exciting to see who is next to captivate us with their performance!
                             </p>
-                            <button type="button" class="btn" id="readmore-btn"> Read More </button>
+                            <button type="button" class="btn mb-sm-5 mb-lg-0 mb-5" id="readmoreBtn"> Read More </button>
                         </div>
                     </div>
                 </div>
-                <div class="col p-4" id="side-articles">
-                    <h2>New</h2>
-                    <hr/>
-                    <div class="row">
-                        <h4>The Reign of Beyonce</h4>
-                        <p>Explore how Beyonce continues to influence the industry with her music and performances</p>
-                    </div>
-                    <hr/>
-                    <div class="row">
-                        <h4>BTS Takes the World by Storm</h4>
-                        <p>Dive into the growing popularity of K-Pop and how BTS has become one of the biggest musical acts in the world</p>
-                    </div> 
-                    <hr/>
-                    <div class="row">
-                        <h4>Billie Eilish: The Voice of a Generation</h4>
-                        <p>Examine how Billie Eilish has become a voice for young people in 2023, how her music address important issues and create connection with her fans</p>
-                    </div>
+                <div class="col p-4 d-flex flex-column justify-content-between" id="side-articles">
+                        <h2>New</h2>
+                        <div class="row">
+                            <h4>The Reign of Beyonce</h4>
+                            <p>Explore how Beyonce continues to influence the industry with her music and performances</p>
+                        </div>
+                        <hr/>
+                        <div class="row">
+                            <h4>BTS Takes the World by Storm</h4>
+                            <p>Dive into the growing popularity of K-Pop and how BTS has become one of the biggest musical acts in the world</p>
+                        </div> 
+                        <hr/>
+                        <div class="row">
+                            <h4>Billie Eilish: The Voice of a Generation</h4>
+                            <p>Examine how Billie Eilish has become a voice for young people in 2023, how her music address important issues and create connection with her fans</p>
+                        </div>
                 </div>
             </div>
         </div>
 
-        <div class="container mt-4">
-            <div class="row g-0">
-                <div class="col-lg-4 col-md-12">
+        <div class="container mt-2" id="lowerSectionArticles">
+            <div class="row g-0 my-5">
+
+                <div class="col-lg-4 col-md-12 mt-lg-0 mt-4">
                     <div class="row">
                         <div class="col-auto">
                             <div class="subphoto">
@@ -84,14 +87,15 @@
                         </div>
                         <div class="col">
                             <h2>01</h2>
-                            <h4>Hozier</h4>
+                            <h4>Taylor Swift</h4>
                             <p class="p-xxl-1 p-lg-0">
-                                See what can fans can expect from Hozier's latest album
+                                See what can fans can expect from Taylor's latest album
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+
+                <div class="col-lg-4 col-sm-12 mt-lg-0 mt-4">
                     <div class="row">
                         <div class="col-auto">
                             <div class="subphoto">
@@ -100,14 +104,15 @@
                         </div>
                         <div class="col">
                             <h2>02</h2>
-                            <h4>Brandi Carlile</h4>
+                            <h4>Ed Sheeran</h4>
                             <p class="p-lg-1">
-                                How Brandi Carlile became one of this year's top artists
+                                Revisit some Ed Sheeran classics and new releases
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+
+                <div class="col-lg-4 col-sm-12 mt-lg-0 mt-4">
                     <div class="row">
                         <div class="col-auto ms-lg-4">
                             <div class="subphoto">
@@ -116,13 +121,14 @@
                         </div>
                         <div class="col">
                             <h2>03</h2>
-                            <h4>Sam Smith</h4>
+                            <h4>Ariana Grande</h4>
                             <p class="p-lg-1">
-                                Learn how Sam Smith's identity and connection shapes their top hits
+                                Learn how Ariana Grande continues to influence contemporary pop music
                             </p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

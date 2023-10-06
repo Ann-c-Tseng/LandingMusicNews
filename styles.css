@@ -1,5 +1,19 @@
+body {
+    background-color: rgb(235, 233, 250);
+}
+
+p {
+    color: rgba(0, 0, 0, 0.549);
+    font-weight: 300;
+}
+
 #main-banner {
-    background-color: rgb(244, 134, 151);
+    background-color: rgb(224, 93, 70);
+}
+
+#mainHeader h1{
+    font-weight: 900;
+    padding-right: 2rem;
 }
 
 #side-articles {
@@ -7,14 +21,31 @@
     color: rgb(237, 237, 237);
 }
 
-#readmore-btn {
-    background-color: coral;
+#side-articles h2 {
+    font-weight: 700;
+    color: rgb(242, 124, 103);
+    align-self: baseline;
+    padding-top: 1rem;
+}
+
+#side-articles p {
+    color: rgb(235, 233, 250);
+}
+
+#readmoreBtn {
+    background-color: rgb(242, 124, 103);
     color: rgb(237, 237, 237);
     border-radius: 0;
+    margin-top: 1rem;
+    padding: 0.5rem 2.5rem;
 }
 
 .subphoto {
     background-color: turquoise;
     height: 150px;
     width: 100px;
+}
+
+#lowerSectionArticles h2 {
+    color: rgba(0, 0, 0, 0.549);
 }
